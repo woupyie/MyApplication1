@@ -55,6 +55,7 @@ public class FirstFragment extends Fragment {
             }
         });
 
+
         view.findViewById(R.id.toast_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,5 +70,7 @@ public class FirstFragment extends Fragment {
                 countMe(view);
             }
         });
+
+
     }
 }
